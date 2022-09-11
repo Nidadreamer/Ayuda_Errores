@@ -16,7 +16,7 @@ public class CocheMain {
     coche2.acelerar(50);
         System.out.println(coche2);
 
-    coche2.color("Verde");
+    coche2.color = "Verde";
         System.out.println(coche2);
 
     }
