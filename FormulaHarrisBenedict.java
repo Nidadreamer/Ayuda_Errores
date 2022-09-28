@@ -11,7 +11,7 @@ public class FormulaHarrisBenedict {
 
       Scanner scanner = new Scanner(System.in);
       System.out.println("Introduce el sexo: \nH si es hombres o M si es mujer");
-      String sexo = String.valueOf(scanner.nextInt());
+      String sexo = String.valueOf(scanner.nextLine());
 
       if (sexo == "H") {
           System.out.println("Introduce el peso en kg:");
