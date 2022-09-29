@@ -13,23 +13,23 @@ public class FormulaHarrisBenedict {
       System.out.println("Introduce el sexo: \nH si es hombres o M si es mujer");
       String sexo = String.valueOf(scanner.nextLine());
 
-      if (sexo == "H" || sexo == "h") {
+      if (sexo.toUpperCase() == "H") {
           System.out.println("Introduce el peso en kg:");
-           double peso = scanner.nextInt();
+           double peso = scanner.nextDouble();
            double pesof = peso * 10;
 
           System.out.println("Introduce la altura en cm:");
-           double altura = scanner.nextInt();
+           double altura = scanner.nextDouble();
            double alturaf = altura * 6.25;
 
           System.out.println("Introduce la edad en año:");
-           double years = scanner.nextInt();
+           double years = scanner.nextDouble();
            double yearsf = years * 5;
 
           System.out.println("Asigna la actividad estimada, introduce el número que corresponda \n<<usa el punto como en los ejemplos>>: \n1.2 -> Poco o ningún ejercicio" +
           "\n1.375 -> Ejercicio ligero (1-3 días a la semana)\n1.55 -> Ejercicio moderado (3-5 días a la semana)\n1.725 -> Ejercicio fuerte (6-7 días a la semana)" +
           "\n1.9 -> Ejercicio muy fuerte (dos veces al día, entrenamientos muy duros)");
-          double actividad = scanner.nextInt();
+          double actividad = scanner.nextDouble();
 
           double calculo = (pesof + alturaf - yearsf + 5) * actividad;
 
@@ -37,21 +37,21 @@ public class FormulaHarrisBenedict {
       }
       else  {
           System.out.println("Introduce el peso en kg:");
-          double peso = scanner.nextInt();
+          double peso = scanner.nextDouble();
           double pesof = peso * 10;
 
           System.out.println("Introduce la altura en cm:");
-          double altura = scanner.nextInt();
+          double altura = scanner.nextDouble();
           double alturaf = altura * 6.25;
 
           System.out.println("Introduce la edad en año:");
-          double years = scanner.nextInt();
+          double years = scanner.nextDouble();
           double yearsf = years * 5;
 
           System.out.println("Asigna la actividad estimada, introduce el número que corresponda\n<<usa el punto como en los ejemplos>>: \n1.2 -> Poco o ningún ejercicio" +
-                  "\n1.375 -> Ejercicio ligero (1-3 días a la semana)\n1.55 -> Ejercicio moderado (3-5 días a la semana)\n1.725 -> Ejercicio fuerte (6-7 días a la semana)" +
-                  "\n1.9 -> Ejercicio muy fuerte (dos veces al día, entrenamientos muy duros)");
-          double actividad = scanner.nextInt();
+          "\n1.375 -> Ejercicio ligero (1-3 días a la semana)\n1.55 -> Ejercicio moderado (3-5 días a la semana)\n1.725 -> Ejercicio fuerte (6-7 días a la semana)" +
+          "\n1.9 -> Ejercicio muy fuerte (dos veces al día, entrenamientos muy duros)");
+          double actividad = scanner.nextDouble();
 
           double calculo = (pesof + alturaf - yearsf - 161) * actividad;
 
