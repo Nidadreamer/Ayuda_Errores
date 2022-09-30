@@ -1,10 +1,7 @@
 # Ayuda_Errores
-No consigo que funcione bien la fórmula Harris - benedict.
+La fórmula ya he consefuido que funcione.
 
-Si sale un resultado final, es desorbitado, y a veces, no sale ningún resultado, dependiendo del valor que ponga en la última petición de la consola.
-
-No sé que está mal. Ayuda!!!
-:_(
+Seguramente se puede pulir un poco más, pero como está por ahora estoy bastante conforme :)
 
 Gracias por pasarte por aquí
 
