@@ -1,7 +1,8 @@
 # Ayuda_Errores
-La fórmula ya he consefuido que funcione.
 
-Seguramente se puede pulir un poco más, pero como está por ahora estoy bastante conforme :)
+No consigo que en el Main se impriman los datos de los trabajadores correctamente.
+
+¿Alguna idea?
 
 Gracias por pasarte por aquí
 
