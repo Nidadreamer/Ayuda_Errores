@@ -1,8 +1,6 @@
 # Ayuda_Errores
 
-No consigo que en el Main se impriman los datos de los trabajadores correctamente.
-
-¿Alguna idea?
+Por ahora no necesito ayuda. Todo va codificando bien.
 
 Gracias por pasarte por aquí
 
